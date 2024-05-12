@@ -1,0 +1,54 @@
+{
+    "name": "BallControls",
+    "maps": [
+        {
+            "name": "MoveBall",
+            "id": "f58a72b2-6800-46f9-ac40-c790945b5acd",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "6d9ae0b9-a37f-4314-88c0-6f1a9d3cff2a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Press",
+                    "type": "Button",
+                    "id": "ca4b8917-4062-4dcf-a139-64d28c5c106f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c282344a-77a1-4237-8e39-236e12a9671f",
+                    "path": "<Mouse>/position",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "77b25ab5-8225-4cf0-9e04-0151517fc9e2",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
